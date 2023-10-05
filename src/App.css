@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  padding-top: 100px;
+}
+
+@media (max-width: 576px) {
+  .App {
+    text-align: center;
+    padding-top: 200px;
+  }
 }
 
 .App-logo {

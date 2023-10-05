@@ -1,0 +1,67 @@
+.nav_ {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgb(199, 199, 199);
+}
+
+.nav_logo {
+    margin-left: 2rem;
+    width: fit-content;
+    height: fit-content;
+    z-index: 2;
+}
+
+.nav_menu {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 930px) {
+    .nav_menu {
+        position: inherit;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav_menu {
+        position: inherit;
+        width: inherit;
+        display: inherit;
+        flex-direction: inherit;
+        align-items: inherit;
+    }
+}
+
+.navbar-toggler {
+    width: 40px; /* Điều chỉnh độ rộng theo ý muốn */
+    height: 35px;
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+.nav_link:link, .nav_link:visited {
+    color: black;
+}
+
+.nav_link:hover, .nav_link:active {
+    color: #ee4d2d;
+}
+
+.profile_name {
+    color: black;
+}
+
+.profile_thumbail {
+    max-width: 200px;
+    max-height: 20px;
+}

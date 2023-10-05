@@ -1,0 +1,14 @@
+.antdMessage {
+    font-weight: bold;
+}
+
+.product_list {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ee4d2d;
+    margin-bottom: 20px;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}

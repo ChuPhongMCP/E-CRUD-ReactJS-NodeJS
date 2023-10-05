@@ -1,0 +1,6 @@
+.img_loading {
+    object-fit: cover;
+    height: 20px;
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,124 @@
+.cover_footer {
+    background-color: #ef674b;
+    /* background-image: linear-gradient(to right, #ee4d2d, white); */
+    height: fit-content;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1 {
+    position: relative;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgb(199, 199, 199);
+    overflow: hidden;
+}
+
+.opacity_logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.img_admin_footer {
+    border-radius: 20px;
+    height: 140px;
+    width: 140px;
+}
+
+@media (max-width: 360px) {
+    .img_admin_footer {
+        border-radius: 20px;
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 260px) {
+    .img_admin_footer {
+        border-radius: 20px;
+        height: 80px;
+        width: 80px;
+    }
+}
+
+.cover_logo_footer,
+.admin_name,
+.admin_des,
+.cover_admin_add,
+.cover_admin_phonenumber,
+.cover_admin_email {
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin_name {
+    color: #ee4d2d;
+    font-size: 24px;
+}
+
+.admin_des,
+.cover_admin_add,
+.cover_admin_phonenumber,
+.cover_admin_email {
+    font-size: 14px;
+}
+
+.cover_logo_footer,
+.admin_name,
+.admin_des {
+    padding-left: 40px;
+}
+
+.cover_admin_add,
+.cover_admin_phonenumber {
+    padding-left: 20px;
+}
+
+.cover_admin_add {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.cover_admin_add_des {
+    display: flex;
+    flex-direction: column;
+}
+
+.cover_admin_email {
+    padding-left: 18px;
+}
+
+.admin_add,
+.admin_phonenumber {
+    padding-left: 10px;
+}
+
+.admin_email {
+    padding-left: 8px;
+}
+
+.logo_footer {
+    border-radius: 10px;
+}
+
+.footerHr {
+    height: 5px;
+    width: 80%;
+    background-color: rgb(0, 0, 0);
+}
